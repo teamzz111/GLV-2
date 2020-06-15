@@ -16,6 +16,8 @@ TagManager:
   - Framerack
   - b
   - cuerda
+  - table
+  - bola
   layers:
   - Default
   - TransparentFX
