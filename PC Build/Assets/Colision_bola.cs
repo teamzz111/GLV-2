@@ -23,7 +23,7 @@ public class Colision_bola : MonoBehaviour
                 D = (((c.x - t) * -10).ToString("F1"));*/
 
             texto.text = (double.Parse(D) + double.Parse(texto1.text)).ToString() + "cm";
-            Destroy(this.GetComponent<Colision_bola>());
+            //Destroy(this.GetComponent<Colision_bola>());
         }
     }
 }

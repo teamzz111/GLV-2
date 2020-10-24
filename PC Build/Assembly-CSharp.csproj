@@ -107,7 +107,7 @@
      <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\Scripts\ChangeCamera.cs" />
      <Compile Include="Assets\Scripts\Click.cs" />
-     <Compile Include="Assets\Scripts\Energy\Colisionab.cs" />
+     <Compile Include="Assets\Scripts\Energy\AngelBall.cs" />
      <Compile Include="Assets\Scripts\Energy\MoveRigidBody.cs" />
      <Compile Include="Assets\Scripts\FallObject.cs" />
      <Compile Include="Assets\Scripts\Guide.cs" />
