@@ -8,7 +8,6 @@ public class MassChange : MonoBehaviour
     public float mass;
 
     public void onClick(){
-        rb = GetComponent<Rigidbody>();
-        rb.mass = mass;
+
     }
 }
