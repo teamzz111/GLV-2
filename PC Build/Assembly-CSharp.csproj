@@ -115,6 +115,7 @@
      <Compile Include="Assets\Scripts\Hover.cs" />
      <Compile Include="Assets\Scripts\Lanza.cs" />
      <Compile Include="Assets\Scripts\Lanza2.cs" />
+     <Compile Include="Assets\Scripts\MassChange.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\MessageConsole.cs" />
      <Compile Include="Assets\Scripts\MoveControls.cs" />
