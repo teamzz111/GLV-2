@@ -71,7 +71,7 @@ public class ResultTable : MonoBehaviour {
             {
                 MailMessage mail = new MailMessage();
 
-                mail.From = new MailAddress("guiaslaboratoriosvirtuales@gmail.com");
+                mail.From = new MailAddress("your-email@example.com");
                 foreach (InputField I in Mails)
                 {
                     if (!string.IsNullOrEmpty(I.text))
@@ -84,7 +84,7 @@ public class ResultTable : MonoBehaviour {
 
                 SmtpClient smtpServer = new SmtpClient("smtp.gmail.com");
                 smtpServer.Port = 587;
-                smtpServer.Credentials = new System.Net.NetworkCredential("guiaslaboratoriosvirtuales@gmail.com", "GLV0315GLV") as ICredentialsByHost;
+                smtpServer.Credentials = new System.Net.NetworkCredential("YOUR_SMTP_USERNAME", "YOUR_SMTP_PASSWORD") as ICredentialsByHost;
                 smtpServer.EnableSsl = true;
                 ServicePointManager.ServerCertificateValidationCallback =
                     delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
